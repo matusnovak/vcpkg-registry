@@ -1,0 +1,23 @@
+{
+  "name": "msgnet",
+  "version": "0.1.1",
+  "description": "A C++ networking library that supports RPC-like bidirectional messaging style using Msgpack on top of TLS via Asio and OpenSSL with LZ4 compression. ",
+  "homepage": "https://github.com/matusnovak/msgnet",
+  "dependencies": [
+    {
+      "name": "msgpack"
+    },
+    {
+      "name": "asio",
+      "features": [
+        "openssl"
+      ]
+    },
+    {
+      "name": "catch2"
+    },
+    {
+      "name": "lz4"
+    }
+  ]
+}
